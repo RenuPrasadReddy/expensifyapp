@@ -12,9 +12,10 @@ import {addExpense} from './actions/expenses';
 
 const store= configureStore();
 
-store.dispatch(addExpense({ description: 'Water Bill', amount: 200 }));
-store.dispatch(addExpense({ description: 'Gas Bill', createdAt:1000 }));
-store.dispatch(addExpense({ description: 'rent', amount: 5000 }));
+//commented coz we'll use database..
+// store.dispatch(addExpense({ description: 'Water Bill', amount: 200 }));
+// store.dispatch(addExpense({ description: 'Gas Bill', createdAt:1000 }));
+// store.dispatch(addExpense({ description: 'rent', amount: 5000 }));
 
 //store.dispatch(setTextFilter('water'));
 // const state=store.getState();
